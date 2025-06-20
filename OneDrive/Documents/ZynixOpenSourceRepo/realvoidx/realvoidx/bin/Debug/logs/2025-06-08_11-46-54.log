@@ -1,0 +1,25 @@
+[2025-06-08 11:46:54.282] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs or have any question please email rizve@xeno.onl
+[2025-06-08 11:46:54.283] [Xeno] [info] Version: Xeno - v1.2.25
+[2025-06-08 11:46:54.283] [Xeno] [info] Logs stored in logs/2025-06-08_11-46-54.log
+[2025-06-08 11:46:54.283] [Xeno] [debug] Client Checker thread: 0x85b48efd0
+[2025-06-08 11:46:54.283] [Xeno] [debug] Xeno Caching thread: 0x85b48efc0
+[2025-06-08 11:46:54.283] [Xeno] [debug] WebSockets Cleaner thread: 0x85b48efb0
+[2025-06-08 11:46:54.283] [Xeno] [debug] Xeno Server thread: 0x85b48efa0
+[2025-06-08 11:46:54.283] [Cache] [info] File: C:\Users\noahh\AppData\Local\Temp\XENO_CACHE.bin
+[2025-06-08 11:46:54.284] [Server] [info] Listening on http://localhost:3110
+[2025-06-08 11:46:54.293] [Cache] [info] Loaded cache: 0 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 0 RBXRenderViews
+[2025-06-08 11:46:54.297] [Xeno] [info] Creating new RBXClient: 13896
+[2025-06-08 11:46:54.297] [RBXClient] [info] [13896]: Initializing...
+[2025-06-08 11:46:54.297] [RBXClient] [info] [13896]: Version: version-e1da58b32b1c4d64
+[2025-06-08 11:46:54.297] [Xeno] [debug] Created RBXClient instance @0x119b0c56640
+[2025-06-08 11:46:54.297] [Xeno] [info] Successfully created RBXClient: 13896
+[2025-06-08 11:46:54.298] [RBXClient] [debug] [13896]: Getting RenderView...
+[2025-06-08 11:46:54.460] [RBXClient] [debug] [13896]: String: 0x1b61a932500
+[2025-06-08 11:46:54.460] [RBXClient] [debug] [13896]: Renderview: 0x1b60b93acc0
+[2025-06-08 11:46:54.461] [RBXClient] [debug] [13896]: DataModel: 0x1b61a57f3d0
+[2025-06-08 11:46:54.466] [RBXClient] [debug] [13896]: LocalPlayer: 0x1b651a2f4b0
+[2025-06-08 11:46:54.466] [RBXClient] [debug] [13896]: LocalPlayer Name: 'RobloxScripts29'
+[2025-06-08 11:46:54.482] [RBXClient] [debug] [13896]: EventConnection: 0x1b64775b8d0
+[2025-06-08 11:46:54.550] [RBXClient] [debug] [13896]: StyledTextLabel: 0x1b64899b950
+[2025-06-08 11:46:54.609] [RBXClient] [info] [13896]: StyledTextLabel PerVMState was set to NotRunYet
+[2025-06-08 11:47:00.411] [RBXClient] [trace] [13896]: Attach ping recieved, restored bytecode.

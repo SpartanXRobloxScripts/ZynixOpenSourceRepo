@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #container {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script src="./vs/loader.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var editor;
+        var syntaxHighlightingEnabled = true; // Tracks whether syntax highlighting is enabled
+
+        require(["./vs/editor/editor.main"], function () {
+            // Define custom theme with syntax highlighting
+            monaco.editor.defineTheme('custom-dark', {
+                base: 'vs-dark',
+                inherit: true,
+                rules: [
+                    { token: 'keyword', foreground: 'C559D5' },
+                    { token: 'string', foreground: '955DE3' },
+                    { token: 'number', foreground: '5D81E3' },
+                    { token: 'comment', foreground: '666666' },
+                    { token: 'variable', foreground: '706EAE' },
+                    { token: 'operator', foreground: '8F6EAE' },
+                    { token: 'function', foreground: '6E99AE' },
+                    { token: 'type', foreground: '6491C2' },
+                    { token: 'delimiter', foreground: '5B5EE2' },
+                    { token: 'namespace', foreground: 'A45DA7' },
+                ],
+                colors: {
+                    "editor.background": "#0F0F0F", // RGB (53, 53, 53) converted to hex
+                    "editorLineNumber.foreground": "#858585"
+                }
+            });
+
+            // Initial editor setup with syntax highlighting enabled
+            createEditor();
+        });
+
+        // Function to create/recreate the editor
+        function createEditor() {
+            if (editor) editor.dispose(); // Dispose of any existing editor instance
+
+            editor = monaco.editor.create(document.getElementById("container"), {
+                value: '',
+                language: syntaxHighlightingEnabled ? "lua" : "plaintext",
+                theme: syntaxHighlightingEnabled ? "custom-dark" : "vs-dark", // Use a simple theme when syntax highlighting is off
+                dragAndDrop: true,
+                links: false,
+                minimap: { enabled: true },
+                showFoldingControls: "always",
+                smoothScrolling: true,
+            });
+        }
+
+        // Function to get the current value from the editor
+        function getValue() {
+            return editor.getValue();
+        }
+
+        // Function to set the editor's value
+        function setValue(value) {
+            editor.setValue(value);
+        }
+
+        // Function to set the editor's content from C#
+        function setEditorContent(content) {
+            setValue(content); // Call setValue to update the editor
+        }
+
+        // Function to enable or disable syntax highlighting
+        function toggleSyntaxHighlighting(enable) {
+            syntaxHighlightingEnabled = enable;
+            createEditor(); // Recreate the editor with updated syntax highlighting setting
+        }
+    </script>
+</body>
+</html>

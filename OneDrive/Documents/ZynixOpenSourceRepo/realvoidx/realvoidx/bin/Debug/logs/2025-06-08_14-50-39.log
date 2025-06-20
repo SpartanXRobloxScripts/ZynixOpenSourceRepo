@@ -1,0 +1,24 @@
+[2025-06-08 14:50:39.324] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs or have any question please email rizve@xeno.onl
+[2025-06-08 14:50:39.324] [Xeno] [info] Version: Xeno - v1.2.25
+[2025-06-08 14:50:39.324] [Xeno] [info] Logs stored in logs/2025-06-08_14-50-39.log
+[2025-06-08 14:50:39.324] [Xeno] [debug] Client Checker thread: 0xe2c6c3edd0
+[2025-06-08 14:50:39.324] [Xeno] [debug] Xeno Caching thread: 0xe2c6c3edc0
+[2025-06-08 14:50:39.324] [Xeno] [debug] WebSockets Cleaner thread: 0xe2c6c3edb0
+[2025-06-08 14:50:39.324] [Xeno] [debug] Xeno Server thread: 0xe2c6c3eda0
+[2025-06-08 14:50:39.325] [Cache] [info] File: C:\Users\noahh\AppData\Local\Temp\XENO_CACHE.bin
+[2025-06-08 14:50:39.325] [Server] [info] Listening on http://localhost:3110
+[2025-06-08 14:50:39.326] [Cache] [info] Reattaching to cached client PID: 9716
+[2025-06-08 14:50:39.327] [Cache] [info] Loaded cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 1 RBXRenderViews
+[2025-06-08 14:50:39.327] [Xeno] [info] Creating new RBXClient: 9716
+[2025-06-08 14:50:39.327] [RBXClient] [info] [9716]: Initializing...
+[2025-06-08 14:50:39.327] [RBXClient] [info] [9716]: Version: version-e1da58b32b1c4d64
+[2025-06-08 14:50:39.327] [Xeno] [debug] Created RBXClient instance @0x2ba8ff73c30
+[2025-06-08 14:50:39.327] [Xeno] [info] Successfully created RBXClient: 9716
+[2025-06-08 14:50:39.328] [RBXClient] [debug] [9716]: Getting RenderView...
+[2025-06-08 14:50:39.328] [RBXClient] [info] [9716]: RenderView retrieved from Cache: 0x21ec0493010
+[2025-06-08 14:50:39.328] [RBXClient] [debug] [9716]: DataModel: 0x21eb7d55a20
+[2025-06-08 14:50:39.331] [RBXClient] [debug] [9716]: LocalPlayer: 0x21ec1a8cc00
+[2025-06-08 14:50:39.331] [RBXClient] [debug] [9716]: LocalPlayer Name: 'RobloxScripts29'
+[2025-06-08 14:50:39.341] [RBXClient] [info] [9716]: Bytecode was already set in menu. (cached)
+[2025-06-08 14:51:00.389] [Execution] [error] [9716]: Could not find a CoreModule
+[2025-06-08 14:51:02.253] [RBXClient] [trace] [9716]: Attach ping recieved, restored bytecode.

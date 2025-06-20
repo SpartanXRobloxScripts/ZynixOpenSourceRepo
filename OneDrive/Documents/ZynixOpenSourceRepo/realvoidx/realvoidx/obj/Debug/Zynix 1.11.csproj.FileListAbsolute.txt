@@ -1,0 +1,24 @@
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Zynix.exe.config
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Zynix.exe
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Zynix.pdb
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\CuoreUI.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Guna.UI2.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Newtonsoft.Json.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\ZynixAPI.dll
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\noahh\source\repos\realvoidx\realvoidx\bin\Debug\Newtonsoft.Json.xml
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix 1.11.csproj.AssemblyReference.cache
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\realvoidx.Executor.resources
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix.Properties.Resources.resources
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\realvoidx.ScriptHub.resources
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix 1.11.csproj.GenerateResource.cache
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix 1.11.csproj.CoreCompileInputs.cache
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix 1.11.csproj.Up2Date
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix.exe
+C:\Users\noahh\source\repos\realvoidx\realvoidx\obj\Debug\Zynix.pdb

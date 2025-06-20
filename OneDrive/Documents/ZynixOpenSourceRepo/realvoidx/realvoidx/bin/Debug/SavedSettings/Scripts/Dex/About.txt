@@ -1,0 +1,1 @@
+This script allows you to view in-game client objects that are running in the background of your Roblox gameplay. This script allows you to modify client settings, and is an astonishingly useful tool for creating your own exploiting LuaU scripts.

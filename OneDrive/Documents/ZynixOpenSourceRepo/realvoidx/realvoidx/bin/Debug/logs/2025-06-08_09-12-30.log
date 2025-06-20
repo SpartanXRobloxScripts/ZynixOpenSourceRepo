@@ -1,0 +1,26 @@
+[2025-06-08 09:12:30.668] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs or have any question please email rizve@xeno.onl
+[2025-06-08 09:12:30.668] [Xeno] [info] Version: Xeno - v1.2.25
+[2025-06-08 09:12:30.668] [Xeno] [info] Logs stored in logs/2025-06-08_09-12-30.log
+[2025-06-08 09:12:30.669] [Xeno] [debug] Client Checker thread: 0xa013c8eb40
+[2025-06-08 09:12:30.669] [Xeno] [debug] Xeno Caching thread: 0xa013c8eb30
+[2025-06-08 09:12:30.669] [Xeno] [debug] WebSockets Cleaner thread: 0xa013c8eb20
+[2025-06-08 09:12:30.669] [Xeno] [debug] Xeno Server thread: 0xa013c8eb10
+[2025-06-08 09:12:30.669] [Cache] [info] File: C:\Users\noahh\AppData\Local\Temp\XENO_CACHE.bin
+[2025-06-08 09:12:30.669] [Server] [info] Listening on http://localhost:3110
+[2025-06-08 09:12:30.670] [Cache] [info] Loaded cache: 0 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 0 RBXRenderViews
+[2025-06-08 09:12:30.680] [Xeno] [info] Creating new RBXClient: 11120
+[2025-06-08 09:12:30.680] [RBXClient] [info] [11120]: Initializing...
+[2025-06-08 09:12:30.681] [RBXClient] [info] [11120]: Version: version-e1da58b32b1c4d64
+[2025-06-08 09:12:30.681] [Xeno] [debug] Created RBXClient instance @0x1a4a0106880
+[2025-06-08 09:12:30.681] [Xeno] [info] Successfully created RBXClient: 11120
+[2025-06-08 09:12:30.681] [RBXClient] [debug] [11120]: Getting RenderView...
+[2025-06-08 09:12:30.800] [RBXClient] [debug] [11120]: String: 0x1989a4a3f40
+[2025-06-08 09:12:30.800] [RBXClient] [debug] [11120]: Renderview: 0x1988b64f310
+[2025-06-08 09:12:30.800] [RBXClient] [debug] [11120]: DataModel: 0x19882eff220
+[2025-06-08 09:12:30.804] [RBXClient] [debug] [11120]: LocalPlayer: 0x1988ccb1870
+[2025-06-08 09:12:30.804] [RBXClient] [debug] [11120]: LocalPlayer Name: 'RobloxScripts29'
+[2025-06-08 09:12:31.866] [RBXClient] [debug] [11120]: EventConnectionEmbedded: 0x1988a28e850
+[2025-06-08 09:12:31.866] [RBXClient] [debug] [11120]: EventConnectionEmbedded: 0x198c99697a0
+[2025-06-08 09:12:31.866] [RBXClient] [debug] [11120]: EventConnectionEmbedded: 0x198cb2e1b30
+[2025-06-08 09:12:31.867] [RBXClient] [info] [11120]: Bytecode has been successfully set in menu.
+[2025-06-08 09:12:35.787] [Xeno] [info] Removed RBXClient: 11120

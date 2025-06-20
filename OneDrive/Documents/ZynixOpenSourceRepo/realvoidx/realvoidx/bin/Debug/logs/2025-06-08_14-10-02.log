@@ -1,0 +1,24 @@
+[2025-06-08 14:10:02.046] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs or have any question please email rizve@xeno.onl
+[2025-06-08 14:10:02.046] [Xeno] [info] Version: Xeno - v1.2.25
+[2025-06-08 14:10:02.046] [Xeno] [info] Logs stored in logs/2025-06-08_14-10-02.log
+[2025-06-08 14:10:02.047] [Xeno] [debug] Client Checker thread: 0x75b73feb80
+[2025-06-08 14:10:02.047] [Xeno] [debug] Xeno Caching thread: 0x75b73feb70
+[2025-06-08 14:10:02.047] [Xeno] [debug] WebSockets Cleaner thread: 0x75b73feb60
+[2025-06-08 14:10:02.047] [Xeno] [debug] Xeno Server thread: 0x75b73feb50
+[2025-06-08 14:10:02.047] [Cache] [info] File: C:\Users\noahh\AppData\Local\Temp\XENO_CACHE.bin
+[2025-06-08 14:10:02.047] [Server] [info] Listening on http://localhost:3110
+[2025-06-08 14:10:02.048] [Cache] [info] Reattaching to cached client PID: 24236
+[2025-06-08 14:10:02.048] [Cache] [info] Loaded cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 1 RBXRenderViews
+[2025-06-08 14:10:02.048] [Xeno] [info] Creating new RBXClient: 24236
+[2025-06-08 14:10:02.048] [RBXClient] [info] [24236]: Initializing...
+[2025-06-08 14:10:02.048] [RBXClient] [info] [24236]: Version: version-e1da58b32b1c4d64
+[2025-06-08 14:10:02.048] [Xeno] [debug] Created RBXClient instance @0x1c8084f2720
+[2025-06-08 14:10:02.048] [Xeno] [info] Successfully created RBXClient: 24236
+[2025-06-08 14:10:02.049] [RBXClient] [debug] [24236]: Getting RenderView...
+[2025-06-08 14:10:02.049] [RBXClient] [info] [24236]: RenderView retrieved from Cache: 0x19fc89122c0
+[2025-06-08 14:10:02.050] [RBXClient] [debug] [24236]: DataModel: 0x19fbff2d7d0
+[2025-06-08 14:10:02.053] [RBXClient] [debug] [24236]: LocalPlayer: 0x19fca0260a0
+[2025-06-08 14:10:02.053] [RBXClient] [debug] [24236]: LocalPlayer Name: 'RobloxScripts29'
+[2025-06-08 14:10:02.063] [RBXClient] [info] [24236]: Bytecode was already set in menu. (cached)
+[2025-06-08 14:10:37.464] [RBXClient] [trace] [24236]: Attach ping recieved, restored bytecode.
+[2025-06-08 14:10:45.647] [WebSocket] [debug] Connection established for 'ws://echo.websocket.events'

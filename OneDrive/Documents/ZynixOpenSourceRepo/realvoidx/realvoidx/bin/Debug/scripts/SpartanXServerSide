@@ -1,0 +1,352 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 16 | Scripts: 1 | Modules: 2 | Tags: 0
+local G2L = {};
+
+-- StarterGui.SpartanServerSide
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[SpartanServerSide]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.SpartanServerSide.Back
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["Visible"] = false;
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(27, 27, 27);
+G2L["2"]["Size"] = UDim2.new(0, 5000, 0, 5000);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[Back]];
+G2L["2"]["BackgroundTransparency"] = 0.25;
+
+
+-- StarterGui.SpartanServerSide.OutputFrame
+G2L["3"] = Instance.new("Frame", G2L["1"]);
+G2L["3"]["Visible"] = false;
+G2L["3"]["Active"] = true;
+G2L["3"]["ZIndex"] = 2;
+G2L["3"]["BorderSizePixel"] = 0;
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(71, 71, 71);
+G2L["3"]["Selectable"] = true;
+G2L["3"]["Size"] = UDim2.new(0, 277, 0, 337);
+G2L["3"]["Position"] = UDim2.new(0.17289, 0, 0.28156, 0);
+G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["Name"] = [[OutputFrame]];
+
+
+-- StarterGui.SpartanServerSide.OutputFrame.Title
+G2L["4"] = Instance.new("TextLabel", G2L["3"]);
+G2L["4"]["TextWrapped"] = true;
+G2L["4"]["TextStrokeTransparency"] = 0;
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["TextSize"] = 14;
+G2L["4"]["TextScaled"] = true;
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(104, 104, 104);
+G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["Size"] = UDim2.new(0, 277, 0, 45);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Text"] = [[Output]];
+G2L["4"]["Name"] = [[Title]];
+
+
+-- StarterGui.SpartanServerSide.OutputFrame.Messages
+G2L["5"] = Instance.new("ScrollingFrame", G2L["3"]);
+G2L["5"]["Active"] = true;
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["Name"] = [[Messages]];
+G2L["5"]["Size"] = UDim2.new(0, 270, 0, 275);
+G2L["5"]["Position"] = UDim2.new(0.06859, 0, 0.16024, 0);
+G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.SpartanServerSide.OutputFrame.Messages.UIListLayout
+G2L["6"] = Instance.new("UIListLayout", G2L["5"]);
+G2L["6"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.SpartanServerSide.OutputFrame.Messages.ReferenceMessage
+G2L["7"] = Instance.new("TextLabel", G2L["5"]);
+G2L["7"]["TextWrapped"] = true;
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["TextScaled"] = true;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["BackgroundTransparency"] = 1;
+G2L["7"]["Size"] = UDim2.new(0, 240, 0, 50);
+G2L["7"]["Visible"] = false;
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Text"] = [[What Will It Say?]];
+G2L["7"]["Name"] = [[ReferenceMessage]];
+G2L["7"]["Position"] = UDim2.new(0.06498, 0, -0.00211, 0);
+
+
+-- StarterGui.SpartanServerSide.MainFrame
+G2L["8"] = Instance.new("Frame", G2L["1"]);
+G2L["8"]["Visible"] = false;
+G2L["8"]["Active"] = true;
+G2L["8"]["ZIndex"] = 2;
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(71, 71, 71);
+G2L["8"]["Selectable"] = true;
+G2L["8"]["Size"] = UDim2.new(0, 537, 0, 337);
+G2L["8"]["Position"] = UDim2.new(0.37328, 0, 0.28156, 0);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Name"] = [[MainFrame]];
+
+
+-- StarterGui.SpartanServerSide.MainFrame.Title
+G2L["9"] = Instance.new("TextLabel", G2L["8"]);
+G2L["9"]["TextWrapped"] = true;
+G2L["9"]["TextStrokeTransparency"] = 0;
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextScaled"] = true;
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(104, 104, 104);
+G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["Size"] = UDim2.new(0, 537, 0, 45);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["Text"] = [[Spartan X]];
+G2L["9"]["Name"] = [[Title]];
+
+
+-- StarterGui.SpartanServerSide.MainFrame.CodeFrame
+G2L["a"] = Instance.new("Frame", G2L["8"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(64, 64, 64);
+G2L["a"]["Size"] = UDim2.new(0, 519, 0, 233);
+G2L["a"]["Position"] = UDim2.new(0.01676, 0, 0.1543, 0);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Name"] = [[CodeFrame]];
+
+
+-- StarterGui.SpartanServerSide.MainFrame.CodeFrame.Editor
+G2L["b"] = Instance.new("TextBox", G2L["a"]);
+G2L["b"]["CursorPosition"] = -1;
+G2L["b"]["Name"] = [[Editor]];
+G2L["b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["TextSize"] = 14;
+G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b"]["MultiLine"] = true;
+G2L["b"]["ClearTextOnFocus"] = false;
+G2L["b"]["Size"] = UDim2.new(0, 498, 0, 217);
+G2L["b"]["Position"] = UDim2.new(0.02241, 0, 0.03042, 0);
+G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Text"] = [[]];
+G2L["b"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.SpartanServerSide.MainFrame.Execute
+G2L["c"] = Instance.new("TextButton", G2L["8"]);
+G2L["c"]["TextWrapped"] = true;
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["TextSize"] = 25;
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c"]["Size"] = UDim2.new(0, 110, 0, 36);
+G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Text"] = [[Execute]];
+G2L["c"]["Name"] = [[Execute]];
+G2L["c"]["Position"] = UDim2.new(0.01676, 0, 0.86944, 0);
+
+
+-- StarterGui.SpartanServerSide.MainFrame.Clear
+G2L["d"] = Instance.new("TextButton", G2L["8"]);
+G2L["d"]["TextWrapped"] = true;
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextSize"] = 25;
+G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d"]["Size"] = UDim2.new(0, 110, 0, 36);
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["Text"] = [[Clear]];
+G2L["d"]["Name"] = [[Clear]];
+G2L["d"]["Position"] = UDim2.new(0.7784, 0, 0.86944, 0);
+
+
+-- StarterGui.SpartanServerSide.ScriptClient
+G2L["e"] = Instance.new("LocalScript", G2L["1"]);
+G2L["e"]["Name"] = [[ScriptClient]];
+
+
+-- StarterGui.SpartanServerSide.ScriptClient.ServerSideAPI
+G2L["f"] = Instance.new("ModuleScript", G2L["e"]);
+G2L["f"]["Name"] = [[ServerSideAPI]];
+
+
+-- StarterGui.SpartanServerSide.ScriptClient.OutputAPI
+G2L["10"] = Instance.new("ModuleScript", G2L["e"]);
+G2L["10"]["Name"] = [[OutputAPI]];
+
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+G2L_MODULES[G2L["f"]] = {
+Closure = function()
+    local script = G2L["f"];local ServerSideAPI = {}
+
+function ServerSideAPI.ExecuteLuaCode(code)
+	local codeExecute = tostring(code);
+	
+	loadstring(codeExecute)()
+end
+
+function ServerSideAPI.ClearEditor()
+	local CodeBox = script.Parent.Parent.MainFrame.CodeFrame['Editor']
+	
+	CodeBox.Text = "";
+end
+
+return ServerSideAPI
+
+end;
+};
+G2L_MODULES[G2L["10"]] = {
+Closure = function()
+    local script = G2L["10"];local OutputAPI = {}
+
+function OutputAPI.SendMessage(nonError:boolean)
+	local UI = script.Parent.Parent
+	
+	local OF = UI['OutputFrame'];
+	
+	local RM = OF['Messages']['ReferenceMessage']
+	
+	local CRM = RM:Clone()
+	CRM.Name = tostring(nonError)
+	CRM.Visible = true
+	CRM.Parent = OF['Messages']
+	
+	if nonError then
+		CRM.TextColor3 = Color3.new(0.243137, 1, 0.305882)
+		CRM.Text = "[Success] Ran Script Into Player's Client"
+	elseif not nonError then
+		CRM.TextColor3 = Color3.new(1, 0.27451, 0.286275)
+		CRM.Text = "[Error] Script Ran Unsuccessfully"
+	end
+	
+	OF['Messages'].CanvasSize = UDim2.new(0,0,0,OF['Messages']['UIListLayout'].AbsoluteContentSize.Y)
+end
+
+return OutputAPI
+
+end;
+};
+-- StarterGui.SpartanServerSide.ScriptClient
+local function C_e()
+local script = G2L["e"];
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	
+	-- Variables
+	local LocalPlayer = Players.LocalPlayer
+	local PlayerUI = LocalPlayer.PlayerGui
+	local UI = script.Parent
+	
+	local MainFrame = UI['MainFrame'];
+	MainFrame.Draggable = true;
+	local OutputFrame = UI['OutputFrame'];
+	OutputFrame.Draggable = true;
+	
+	local Execute = MainFrame.Execute;
+	local Clear = MainFrame.Clear;
+	
+	-- Modules
+	local SSA = require(script.ServerSideAPI)
+	local OA = require(script.OutputAPI)
+	
+	
+	-- Functions
+	local SetupScript = function()
+		local NonUI:ScreenGui = PlayerUI:FindFirstChild(UI.Name) -- the name of the var UI is already set to a string, so we don't have to use the tostring() function
+		
+		if NonUI and NonUI ~= UI then
+			NonUI:Destroy()
+		end
+		
+		MainFrame.Draggable = true;
+		OutputFrame['Messages'].CanvasSize = UDim2.new(0,0,0,OutputFrame['Messages'].UIListLayout.AbsoluteContentSize.Y)
+		
+		warn("Spartan X Server Side Set Up Successfully!")
+	end
+	
+	local HideShow = function(hideshow:boolean)
+		MainFrame.Visible = hideshow;
+		OutputFrame.Visible = hideshow;
+		UI['Back'].Visible = hideshow;
+	end
+	
+	-- Coding the premade functions
+	task.spawn(function()
+		Execute.Activated:Connect(function()
+			local success, err = pcall(function()
+				SSA.ExecuteLuaCode(MainFrame.CodeFrame['Editor'].Text)
+			end)
+	
+			if success then
+				OA.SendMessage(true)
+			else
+				OA.SendMessage(false)
+				warn("Execution error:", err)
+			end
+		end)
+	
+		Clear.Activated:Connect(function()
+			SSA.ClearEditor()
+		end)
+	end)
+	
+	task.spawn(function()
+		UIS.InputBegan:Connect(function(input:InputObject, gameProcessedEvent:boolean)
+			if input.KeyCode == Enum.KeyCode.RightShift then
+				if not gameProcessedEvent then
+					if OutputFrame.Visible then
+						HideShow(false);
+					else
+						HideShow(true);
+					end
+				end
+			end
+		end)
+	end)
+	
+	-- setting the script up
+	task.spawn(function()
+		SetupScript()
+	end)
+end;
+task.spawn(C_e);
+
+return G2L["1"], require;

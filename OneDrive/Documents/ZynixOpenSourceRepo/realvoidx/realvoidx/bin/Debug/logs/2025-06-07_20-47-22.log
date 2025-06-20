@@ -1,0 +1,23 @@
+[2025-06-07 20:47:22.098] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs or have any question please email rizve@xeno.onl
+[2025-06-07 20:47:22.099] [Xeno] [info] Version: Xeno - v1.2.25
+[2025-06-07 20:47:22.099] [Xeno] [info] Logs stored in logs/2025-06-07_20-47-22.log
+[2025-06-07 20:47:22.099] [Xeno] [debug] Client Checker thread: 0xbefe9fd4f0
+[2025-06-07 20:47:22.099] [Xeno] [debug] Xeno Caching thread: 0xbefe9fd4e0
+[2025-06-07 20:47:22.099] [Xeno] [debug] WebSockets Cleaner thread: 0xbefe9fd4d0
+[2025-06-07 20:47:22.099] [Xeno] [debug] Xeno Server thread: 0xbefe9fd4c0
+[2025-06-07 20:47:22.099] [Cache] [info] File: C:\Users\noahh\AppData\Local\Temp\XENO_CACHE.bin
+[2025-06-07 20:47:22.100] [Cache] [info] Reattaching to cached client PID: 32784
+[2025-06-07 20:47:22.100] [Server] [info] Listening on http://localhost:3110
+[2025-06-07 20:47:22.100] [Cache] [info] Loaded cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 1 RBXRenderViews
+[2025-06-07 20:47:22.100] [Xeno] [info] Creating new RBXClient: 32784
+[2025-06-07 20:47:22.100] [RBXClient] [info] [32784]: Initializing...
+[2025-06-07 20:47:22.100] [RBXClient] [info] [32784]: Version: version-e1da58b32b1c4d64
+[2025-06-07 20:47:22.100] [Xeno] [debug] Created RBXClient instance @0x2ad2e3fc1b0
+[2025-06-07 20:47:22.100] [Xeno] [info] Successfully created RBXClient: 32784
+[2025-06-07 20:47:22.101] [RBXClient] [debug] [32784]: Getting RenderView...
+[2025-06-07 20:47:22.101] [RBXClient] [info] [32784]: RenderView retrieved from Cache: 0x10f0b60d740
+[2025-06-07 20:47:22.101] [RBXClient] [debug] [32784]: DataModel: 0x10f02c59810
+[2025-06-07 20:47:22.106] [RBXClient] [debug] [32784]: LocalPlayer: 0x10f0cc035b0
+[2025-06-07 20:47:22.106] [RBXClient] [debug] [32784]: LocalPlayer Name: 'RobloxScripts29'
+[2025-06-07 20:47:22.118] [RBXClient] [info] [32784]: Bytecode was already set in menu. (cached)
+[2025-06-07 20:47:36.484] [RBXClient] [trace] [32784]: Attach ping recieved, restored bytecode.

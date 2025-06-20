@@ -1,0 +1,26 @@
+[2025-06-08 14:49:22.558] [Xeno] [trace] Xeno is maintained by Rizve. If you find any bugs or have any question please email rizve@xeno.onl
+[2025-06-08 14:49:22.558] [Xeno] [info] Version: Xeno - v1.2.25
+[2025-06-08 14:49:22.558] [Xeno] [info] Logs stored in logs/2025-06-08_14-49-22.log
+[2025-06-08 14:49:22.559] [Xeno] [debug] Client Checker thread: 0x2f0624e940
+[2025-06-08 14:49:22.559] [Xeno] [debug] Xeno Caching thread: 0x2f0624e930
+[2025-06-08 14:49:22.559] [Xeno] [debug] WebSockets Cleaner thread: 0x2f0624e920
+[2025-06-08 14:49:22.559] [Xeno] [debug] Xeno Server thread: 0x2f0624e910
+[2025-06-08 14:49:22.559] [Cache] [info] File: C:\Users\noahh\AppData\Local\Temp\XENO_CACHE.bin
+[2025-06-08 14:49:22.559] [Server] [info] Listening on http://localhost:3110
+[2025-06-08 14:49:22.561] [Cache] [info] Loaded cache: 0 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 0 RBXRenderViews
+[2025-06-08 14:49:22.570] [Xeno] [info] Creating new RBXClient: 9716
+[2025-06-08 14:49:22.570] [RBXClient] [info] [9716]: Initializing...
+[2025-06-08 14:49:22.570] [RBXClient] [info] [9716]: Version: version-e1da58b32b1c4d64
+[2025-06-08 14:49:22.570] [Xeno] [debug] Created RBXClient instance @0x1a50969dc40
+[2025-06-08 14:49:22.570] [Xeno] [info] Successfully created RBXClient: 9716
+[2025-06-08 14:49:22.570] [RBXClient] [debug] [9716]: Getting RenderView...
+[2025-06-08 14:49:22.782] [RBXClient] [debug] [9716]: String: 0x21ecf171730
+[2025-06-08 14:49:22.783] [RBXClient] [debug] [9716]: Renderview: 0x21ec0493010
+[2025-06-08 14:49:22.783] [RBXClient] [debug] [9716]: DataModel: 0x21eb7d55a20
+[2025-06-08 14:49:22.787] [RBXClient] [debug] [9716]: LocalPlayer: 0x21ec1a8cc00
+[2025-06-08 14:49:22.787] [RBXClient] [debug] [9716]: LocalPlayer Name: 'RobloxScripts29'
+[2025-06-08 14:49:23.538] [RBXClient] [debug] [9716]: EventConnectionEmbedded: 0x21e80576110
+[2025-06-08 14:49:23.538] [RBXClient] [debug] [9716]: EventConnectionEmbedded: 0x21e815cc360
+[2025-06-08 14:49:23.538] [RBXClient] [debug] [9716]: EventConnectionEmbedded: 0x21ebeedc130
+[2025-06-08 14:49:23.539] [RBXClient] [info] [9716]: Bytecode has been successfully set in menu.
+[2025-06-08 14:49:25.359] [RBXClient] [trace] [9716]: Attach ping recieved, restored bytecode.

@@ -1,0 +1,1 @@
+This script allows you to move, destroy, and copy parts of any map imaginable in any Roblox game! This script can let you shoot through walls, wall through walls, and much, much more!
